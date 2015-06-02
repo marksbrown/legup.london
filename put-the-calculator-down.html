@@ -15,7 +15,7 @@
 
         <meta name="author" content="Mark S. Brown" />
         <meta name="keywords" content="physics,tips" />
-        <meta name="description" content="Many students are almost literally glued to their calculators. This can be unreliable and worse - slow! In this post I list a few tips for quickly calculating on paper." />
+        <meta name="description" content="Many students are almost literally glued to their calculators. This can be unreliable and worse - slow! In this post I list a few tips." />
 
     <!-- Enable latex plugin -->
 
@@ -104,17 +104,17 @@ Even simple calculations cause students to doubt their own ability to
 count.
 Add in any amount of complexity and you have a recipe for silly mistakes
 and order of magnitude errors.</p>
-<p>In this (hopefully short!) post, I'll list a few tips.
+<p>In this (hopefully short) post, I'll list a few tips.
 Hopefully a few you'll find useful!</p>
 <h2>1. Rearrangement before substitution</h2>
 <p>Even if the question is asking for something simple, rearrange the
-formula you are using <strong>before</strong> substituting numbers.</p>
-<p>In more complex cases you can find that common terms cancel out, saving
-you time and effort.</p>
+formula you are using <strong>before</strong> substituting numbers.
+In more complex cases you can find that common terms cancel out, saving you time and effort.</p>
 <p>Finally as I stress to most of my students, I'm rarely interested in the
 final answer. I'm interested in how you got to it. By writing out the
-rearranged equation It makes it easier to see what you've done.</p>
-<p>For example :</p>
+rearranged equation it makes it easier to see what you've done and spot
+mistakes easily.</p>
+<p>For example</p>
 <blockquote>
 <p>Q) Light is incident at <span class="math">\(30^\circ\)</span> to the boundary between glass <span class="math">\(n=1.5\)</span>
 and water <span class="math">\(n=1.33\)</span>. What is the outgoing angle?</p>
@@ -205,13 +205,22 @@ If we're told that <span class="math">\(\sin\theta = \frac{4}{5}\)</span> can yo
 </blockquote>
 <p>This can be exceedingly helpful for resolving vectors without loss of
 precision.</p>
-<h2>4. Useful Approximations</h2>
-<p>Sometimes there are shortcuts we can use.
-Whilst not recommended during an exam, they can be useful to verify
-whether an answer is correct without repeating the whole calculation
-again.</p>
-<p>For instance did you know that there are <span class="math">\(\pi\times10^7\)</span> seconds in a
-year? The error in this is less than 0.5%! Very handy.</p>
+<h2>4. Learning to Approximation</h2>
+<p>Finally if we're interested in roughly how much an answer is, we can
+approximate.
+In this case we substitute into our equations only the order of
+magnitudes, not the actual numbers.
+This is known as a <a href="http://en.wikipedia.org/wiki/Fermi_problem">fermi estimation</a>.</p>
+<p>Whilst <strong>not recommended</strong> during an exam, this can be a quick way to
+validate an answer or find a good estimate very quickly.</p>
+<p>A great example of one can be found on the <a href="https://what-if.xkcd.com/84/">what if xkcd blog</a>.</p>
+<p>Finally there are two more numbers that we can memorise to save time.</p>
+<ul>
+<li>The number of seconds in a year is <span class="math">\(\pi\times10^7\)</span>.</li>
+<li>Perhaps a bit more specialised - 197 MeV.fm = <span class="math">\(\hbar c\)</span></li>
+</ul>
+<p>The error in the number of seconds calculate this way is less than 0.5%!
+Very handy. For instance</p>
 <blockquote>
 <p>Q) How many metres to Alpha Centauri? (Alpha Centauri is 4.4Ly away).
 The speed of light is <span class="math">\(3\times10^8\)</span> ms<span class="math">\({}^{-1}\)</span></p>
@@ -219,15 +228,13 @@ The speed of light is <span class="math">\(3\times10^8\)</span> ms<span class="m
 <p>Distance = <span class="math">\((3)(4.4)(\pi)\times10^{15}\)</span></p>
 <p>Therefore Distance = <span class="math">\(4.1\times10^{16}\)</span>m</p>
 </blockquote>
-<p>So what other numbers are there?</p>
-<ul>
-<li><span class="math">\(\hbar c = 197\)</span> MeV.fm</li>
-<li>Electron mass = 0.511 MeV/c<span class="math">\({}^2\)</span></li>
-<li>Coulomb Constant = <span class="math">\(9\times10^9\)</span> m/F</li>
-<li>Gravitational acceleration = 10 m/s<span class="math">\({}^2\)</span></li>
-</ul>
-<p>For even more have a look at <a href="http://xkcd.com/1047/">xkcd</a>!</p>
-<p>Know anymore? Drop me a message and I'll add them.</p>
+<p>Know anymore? Drop me a message and I'll add them!</p>
+<h2>Summary</h2>
+<p>The main thing to remember is to think...</p>
+<blockquote>
+<p>'do I need to use a calculator really?'</p>
+</blockquote>
+<p>If you've exhausted the above steps, then go for it!</p>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -332,5 +339,22 @@ The speed of light is <span class="math">\(3\times10^8\)</span> ms<span class="m
         }());
     </script>
     <!-- End Disqus Code -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-63644838-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
 </body>
 </html>
