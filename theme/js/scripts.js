@@ -1,28 +1,23 @@
-addLine = function(left){
+addLine = function(){
   var position = $("#contents").position();
-  if(left){
   $('.vr').css({'left' : position.left+"px"});
-  }
-  $('.vr').css({'height' : $(document).height()+"px"});
 }
 
 $(document).ready(function(){
-  addLine(true);
+  addLine();
 
   $(window).resize(function(){
     addLine(true);
   });
 
-  $(".navbar").show();
-
+  //$(".navbar").show();
+/*
   $(window).scroll(function () {
-
-    addLine(false);
-
     if ($(this).scrollTop() > 10) {
       $('.navbar').fadeOut();
     } else {
       $('.navbar').fadeIn();
       }
     });
+   */
 });
