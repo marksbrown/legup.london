@@ -256,3 +256,6 @@ figure.floatcenter, .align-center {
     padding: 0px;
 }
 
+body, html {
+  height:100%;
+}
