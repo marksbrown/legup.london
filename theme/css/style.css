@@ -261,10 +261,18 @@ body, html {
   height:100%;
 }
 
+.container {
+  margin-left: 0px;
+  padding-left: 10px;
+}
 
+.main-wrapper {
+  margin-left: 20px;
+  min-height:100%;
+  border-left:2px solid #abced4;
+}
 @media screen and (min-width: 920px) {
   .main-wrapper {
-    height:100%;
     margin-left:100px;
     border-left:2px solid #abced4;
 }
