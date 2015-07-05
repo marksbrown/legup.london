@@ -26,8 +26,7 @@
 
 
 body {
-    padding-top: 100px;
-    font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
   background-color: #fff;
   background-image:
   linear-gradient(#eee .1em, transparent .1em);
@@ -256,3 +255,30 @@ figure.floatcenter, .align-center {
     padding: 0px;
 }
 
+
+/*Vertical Rule*/
+body, html {
+  height:100%;
+}
+
+.container {
+  margin-left: 0px;
+  padding-left: 10px;
+}
+
+.main-wrapper {
+  margin-left: 20px;
+  min-height:100%;
+  border-left:2px solid #abced4;
+}
+@media screen and (min-width: 920px) {
+  .main-wrapper {
+    margin-left:100px;
+    border-left:2px solid #abced4;
+}
+
+.container {
+    margin-left:10px;
+    padding-left:0;
+  }
+}
